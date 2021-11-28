@@ -1,0 +1,42 @@
+
+//UTILS
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+//BASE
+@import './base/common';
+@import './base/is-hidden';
+
+//COMPONENTS
+@import './components/btn';
+@import './components/container';
+@import './components/logo';
+@import './components/section';
+@import './components/social-item';
+@import './components/social-link';
+@import './components/social-list';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/registration-form';
+@import './components/contact-link';
+@import './components/subscription-form';
+
+
+
+//LAYOUT
+@import './layout/body';
+@import './layout/header';
+@import './layout/hero-section';
+@import './layout/advantage-section';
+@import './layout/example-section';
+@import './layout/team-section';
+@import './layout/client-section';
+@import './layout/portfolio-section';
+@import './layout/footer';
+
+
+
+
+
+
+
