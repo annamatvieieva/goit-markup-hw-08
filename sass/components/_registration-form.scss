@@ -82,13 +82,21 @@
 
 .modal-checkbox-text {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 41px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 31px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+    margin-bottom: 30px;
+  }
   &::before {
     content: "";
     display: block;

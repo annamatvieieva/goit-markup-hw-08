@@ -26,12 +26,25 @@
 
 .filter-list {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  margin-right: -8px;
+  margin-bottom: 25px;
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
 }
 
-.filter-item:not(:last-child) {
+.filter-item {
   margin-right: 8px;
+  margin-bottom: 15px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
 }
 
 .portfolio-link {
@@ -45,16 +58,23 @@
 }
 
 .portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
   margin-right: -30px;
   margin-bottom: -30px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .portfolio-item {
   margin-right: 30px;
-  margin-bottom: 30px;
-  flex-basis: calc(100% / 3 - 30px);
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc(100% / 3 - 30px);
+  }
 }
 
 .img-holder {

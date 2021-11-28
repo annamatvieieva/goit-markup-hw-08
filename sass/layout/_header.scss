@@ -95,10 +95,7 @@
   display: block;
   position: absolute;
   left: 0;
-  bottom: -28px;
-  @media screen and (min-width: 1200px) {
-    bottom: -32px;
-  }
+  bottom: -32px;
 }
 
 .contact {
@@ -243,6 +240,7 @@
 
 .mobile--social {
   display: flex;
+  flex-wrap: wrap;
 }
 .mobile--social__item:not(:last-child) {
   padding-right: 10px;
