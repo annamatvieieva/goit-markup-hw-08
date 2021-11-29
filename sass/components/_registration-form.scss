@@ -87,6 +87,7 @@
   letter-spacing: 0.03em;
   color: var(--second-text-color);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 41px;
   @media screen and (min-width: 768px) {
@@ -111,5 +112,14 @@
     background-image: url(../images/check.svg);
     background-size: contain;
     border: 0;
+  }
+
+  a {
+    color: #2196f3;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
